@@ -1,6 +1,6 @@
 #
 resource "vsphere_content_library" "library" {
-  name            = "Avi Content Library"
+  name            = "Test TF Content Library"
   storage_backing = [data.vsphere_datastore.datastore.id]
-  description     = "Avi Content Library"
+  description     = "Test TF Content Library"
 }
